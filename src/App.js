@@ -23,7 +23,7 @@ function App() {
       gameActionColor = "red"
     } 
     else if  (gameTime >= 5 && gameTime < 30) {
-      gameAction = "FARM LCREEPS";
+      gameAction = "FARM LANE CREEPS";
       gameActionColor = "orange"
     }
     else if  (gameTime >= 30 && gameTime < 40) {
@@ -31,15 +31,15 @@ function App() {
       gameActionColor = "yellow"
     }
     else if  (gameTime >= 40 && gameTime < 54) {
-      gameAction = "FARM JCREEPS, PREPARE PULL";
+      gameAction = "FARM JUNGLE CREEPS, PREPARE PULL";
       gameActionColor = "green"
     }
     else if  (gameTime >= 54 && gameTime < 57) {
-      gameAction = "PULL NOW IF JCREEPS ARE SLEEPING";
+      gameAction = "PULL NOW IF JUNGLE CREEPS ARE SLEEPING";
       gameActionColor = "blue"
     }
     else if  (gameTime >= 57 && gameTime < 59) {
-      gameAction = "PULL NOW IF JCREEPS ARE UNDER ATTACK";
+      gameAction = "PULL NOW IF JUNGLE CREEPS ARE UNDER ATTACK";
       gameActionColor = "indigo"
     }
     setGameActionColor(gameActionColor);
